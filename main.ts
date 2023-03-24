@@ -1,0 +1,21 @@
+input.onButtonPressed(Button.A, function () {
+    basic.showString("audrey")
+    basic.showIcon(IconNames.Heart)
+    music.playMelody("F G F F G E A G ", 120)
+    music.playTone(440, music.beat(BeatFraction.Half))
+    led.stopAnimation()
+})
+input.onButtonPressed(Button.AB, function () {
+    basic.showString("leana+maiwewn+joey")
+    basic.showIcon(IconNames.Heart)
+    music.playMelody("F G F F G E A G ", 120)
+    music.playTone(440, music.beat(BeatFraction.Half))
+    led.stopAnimation()
+})
+input.onButtonPressed(Button.B, function () {
+    basic.showString("brice")
+    basic.showIcon(IconNames.Heart)
+    music.playMelody("F G F F G E A G ", 120)
+    music.playTone(440, music.beat(BeatFraction.Half))
+    led.stopAnimation()
+})
